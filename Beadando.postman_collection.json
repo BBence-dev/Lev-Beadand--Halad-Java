@@ -1,0 +1,708 @@
+{
+	"info": {
+		"_postman_id": "8373a5d7-bcdf-4220-850e-1574ac7dae54",
+		"name": "Beadando",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21158756"
+	},
+	"item": [
+		{
+			"name": "allChemistry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allChemistry",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allChemistry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateChemisrty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateChemistry",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateChemistry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateChemistry",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateChemistry",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateChemistry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allInformatics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/allInformatics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allInformatics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateInformatics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateInformatics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateInformatics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateInformatics",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateInformatics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateInformatics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allMath",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/allMath",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allMath"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateMath",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Bandi\",\r\n        \"lesson\": 27,\r\n        \"classroom\": 35\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateMath",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateMath"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateMath",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Andris\",\r\n        \"lesson\": 22,\r\n        \"classroom\": 34\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateMath",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateMath"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allPhysics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Andris\",\r\n        \"lesson\": 22,\r\n        \"classroom\": 34\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/allPhysics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allPhysics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreatePhysics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Andris\",\r\n        \"lesson\": 22,\r\n        \"classroom\": 34\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreatePhysics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreatePhysics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePhysics",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Andris\",\r\n        \"lesson\": 22,\r\n        \"classroom\": 34\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdatePhysics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdatePhysics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allTimetable",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"name\": \"Andris\",\r\n        \"lesson\": 22,\r\n        \"classroom\": 34\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/allTimetable",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allTimetable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOneTimetable",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/getOneTimetable?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getOneTimetable"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTimetableAll",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateTimetableAll?id=2&timetable=10c&physicsID=2&physicsLesson=2&informaticsID=2&informaticsLesson=2&chemistryID=2&chemistryLesson=2&mathID=2&mathLesson=2&fullboard=27",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateTimetableAll"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "timetable",
+							"value": "10c"
+						},
+						{
+							"key": "physicsID",
+							"value": "2"
+						},
+						{
+							"key": "physicsLesson",
+							"value": "2"
+						},
+						{
+							"key": "informaticsID",
+							"value": "2"
+						},
+						{
+							"key": "informaticsLesson",
+							"value": "2"
+						},
+						{
+							"key": "chemistryID",
+							"value": "2"
+						},
+						{
+							"key": "chemistryLesson",
+							"value": "2"
+						},
+						{
+							"key": "mathID",
+							"value": "2"
+						},
+						{
+							"key": "mathLesson",
+							"value": "2"
+						},
+						{
+							"key": "fullboard",
+							"value": "27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createTimetableMath",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/createTimetableMath?id=3&timetable=10b&mathID=4&mathLesson=4&fullboard=25",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createTimetableMath"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3"
+						},
+						{
+							"key": "timetable",
+							"value": "10b"
+						},
+						{
+							"key": "mathID",
+							"value": "4"
+						},
+						{
+							"key": "mathLesson",
+							"value": "4"
+						},
+						{
+							"key": "fullboard",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createTimetablePhysics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/createTimetablePhysics?id=1&timetable=9A&physicsID=5&physicsLesson=4&fullboard=27",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createTimetablePhysics"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "timetable",
+							"value": "9A"
+						},
+						{
+							"key": "physicsID",
+							"value": "5"
+						},
+						{
+							"key": "physicsLesson",
+							"value": "4"
+						},
+						{
+							"key": "fullboard",
+							"value": "27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createTimetableInformatics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/createTimetableInformatics?id=1&timetable=9A&informaticsID=5&informaticsLesson=4&fullboard=27",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createTimetableInformatics"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "timetable",
+							"value": "9A"
+						},
+						{
+							"key": "informaticsID",
+							"value": "5"
+						},
+						{
+							"key": "informaticsLesson",
+							"value": "4"
+						},
+						{
+							"key": "fullboard",
+							"value": "27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createTimetableChemistry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/createTimetableChemistry?id=1&timetable=1A&chemistryID=5&chemistryLesson=4&fullboard=28",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createTimetableChemistry"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "timetable",
+							"value": "1A"
+						},
+						{
+							"key": "chemistryID",
+							"value": "5"
+						},
+						{
+							"key": "chemistryLesson",
+							"value": "4"
+						},
+						{
+							"key": "fullboard",
+							"value": "28"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTimetable",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1,\r\n        \"timetable\": \"11A\",\r\n        \"physicsID\": 0,\r\n        \"physicsLesson\": 0,\r\n        \"informaticsID\": 0,\r\n        \"informaticsLesson\": 0,\r\n        \"chemistryID\": 5,\r\n        \"chemistryLesson\": 4,\r\n        \"mathID\": 1,\r\n        \"mathLesson\": 1,\r\n        \"fullboard\": 29\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateTimetable",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateTimetable"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
